@@ -1,0 +1,213 @@
+body{
+	/*font-family: 'Montserrat';*/
+	font-family: 'Candal';
+ 
+
+}
+#title{
+
+	background-color: #ff4c68;
+	color:#fff;
+
+}
+
+.container-fluid{
+  padding: 3% 15% 25%;
+
+
+}
+
+.navbar{
+	padding:0 0 4.5rem;
+	margin-bottom: 4.5rem;
+}
+
+.nav-item{
+	padding:0 18px;
+
+}
+
+.nav-link{
+	font-family: 'Candal';
+	/*font-family:"Montserrat-light";*/
+	font-size: :1.2rem;
+}
+
+
+
+/*font-family: 'Ubuntu', sans-serif;     */
+
+/* Navigation bar */
+
+.navbar-brand{
+	font-family: "Ubuntu";
+	font-size:3rem;
+	line-height: 1.5;
+	font-weight:bold;
+}
+
+.bigheading{
+	font-size:3rem;
+	line-height:1.5;
+	font-weight:900;
+
+}
+
+.section-heading{
+
+	font-size:3rem;
+	line-height:1.5;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+
+	/*font-family:"Montserrat-bold";*/
+	font-family: 'Candal';
+
+}
+
+
+
+
+
+
+
+p{
+	color: #8f8f8f;
+
+}
+
+/*download buttons*/
+.downloadbtn{
+	margin: 5% 3% 5% 0%;
+}
+
+.title-img{
+	width:50%;
+	transform:rotate(25deg);
+	position: absolute;
+	right:25%;
+	
+
+}
+/*features section*/
+
+#features{
+	padding:7% 15%;
+	position: relative;
+	background-color: #fff;
+	z-index:1;
+	
+}
+
+.feature-title{
+	font-size:1.5rem;
+
+}
+
+.feature-box{
+ text-align:center;
+ padding:5%;
+
+}
+
+.icon{
+	color:#ef8172;
+	margin-bottom: :1rem;
+}
+
+.icon:hover{
+  color:#ff4c68;
+}
+
+/*testimonials*/
+
+#testimonials{
+	
+	text-align:center;
+	color:#fff;
+	background-color:#ef8172;
+}
+
+.testimonial-text{
+	font-size:3rem;
+	line-height:1.5;
+}
+
+.testimonials-image{
+	width:10%;
+	border-radius:100%;
+	margin:28px;
+
+} 
+
+#press{
+	background-color:#ef8172;
+	padding-bottom: 3%;
+	text-align: center;
+}
+
+.press-logo{
+	width:15%;
+	margin: 20px 20px 50px ;
+}
+
+.carousel-item{
+	padding:7% 15%;
+
+}
+
+#pricing{
+	padding:100px;
+	text-align: center;
+}
+
+.breed-name{
+	font-size:1.5rem;
+}
+.price-text{
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+.pricing-item{
+	padding:3% 2%;
+}
+
+@media(max-width: 1028px){
+
+	#title{
+		text-align: center;
+	}
+	.title-img{
+	transform:rotate(0);
+	position: static;
+	
+
+}
+}
+
+/*cta section*/
+#cta{
+	background-color: #ff4c68;
+	color:#fff;
+	text-align: center;
+	padding:7% 15%;
+
+}
+.cta-heading{
+	font-family: 'Candal';
+	font-size:3.5rem;
+}
+
+#footer{
+	text-align:center;
+	padding:7% 15%;
+}
+
+.socialicon{
+	margin:20px 10px;
+}
+
+
