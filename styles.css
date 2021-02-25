@@ -30,7 +30,12 @@ body{
 .nav-link{
 	font-family: 'Candal';
 	/*font-family:"Montserrat-light";*/
-	font-size: :2rem !important;
+	font-size: :2.5rem !important;
+	color:white;
+}
+
+.nav-link{
+	color:white;
 }
 
 
@@ -66,7 +71,10 @@ h1, h2, h3, h4, h5, h6{
 	font-family: 'Candal';
 
 }
-
+.navbar-toggler-icon{
+	font-size:3rem;
+	color:white;
+}
 
 
 
@@ -183,9 +191,13 @@ p{
 	.title-img{
 	transform:rotate(0);
 	position: static;
-	
-
+   
 }
+
+.nav-link{
+	   font-size: 2rem;
+   }	
+
 }
 
 /*cta section*/
